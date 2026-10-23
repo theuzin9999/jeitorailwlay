@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 
-let FIREBASE_URL = (process.env.FIREBASE_HISTORY_URL || "https://goathvelas-default-rtdb.firebaseio.com/").replace(/\/+$/, "");
+let FIREBASE_URL = (process.env.FIREBASE_HISTORY_URL || "https://aviatormax-ac28e-default-rtdb.firebaseio.com/").replace(/\/+$/, "");
 if (!FIREBASE_URL.endsWith("/history")) FIREBASE_URL += "/history";
 const AVIATOR_USER_URL = process.env.AVIATOR_USER_URL || "COLE_AQUI_O_SEU_URL_COMPLETO";
 
